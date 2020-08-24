@@ -257,13 +257,18 @@ body {
           width: 100%; } }
 .main .select-category article label {
   display: block;
+  cursor: pointer;
   /*vertical-align: top;*/ }
+  .main .select-category article label:hover > p {
+    color: #c40505; }
   .main .select-category article label input[type="checkbox"] {
     display: inline-block;
-    margin-left: 5px; }
+    cursor: pointer; }
+    .main .select-category article label input[type="checkbox"]:hover + p {
+      color: #c40505; }
   .main .select-category article label input[type="checkbox"] + p {
     display: inline-block;
-    color: red;
+    color: black;
     vertical-align: middle;
     margin-left: 15px;
     font-size: larger;
@@ -271,7 +276,10 @@ body {
     font-size: 16px;
     transition: color .5s; }
     .main .select-category article label input[type="checkbox"] + p:hover {
-      color: black; }
+      color: black;
+      color: #c40505; }
+    .main .select-category article label input[type="checkbox"] + p:hover + p {
+      color: #c40505; }
 
 /*about.scss*/
 .main .sub-content {

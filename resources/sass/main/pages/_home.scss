@@ -87,17 +87,26 @@
 
             label {
                 display: block;
+                cursor: pointer;
                 /*vertical-align: top;*/
+
+                &:hover > p {
+                    color: #c40505;
+                }
 
                 input[type="checkbox"] {
                     
                     display: inline-block;
-                    margin-left: 5px;
+                    cursor: pointer;
+
+                    &:hover + p {
+                        color: #c40505;
+                    }
                 }
         
                 input[type="checkbox"] + p {
                     display: inline-block;
-                    color: red;
+                    color: black;
                     vertical-align: middle;
                     margin-left: 15px;
                     font-size: larger;
@@ -107,6 +116,11 @@
 
                     &:hover {
                         color: black;
+                        color: #c40505;
+                    }
+
+                    &:hover + p {
+                        color: #c40505;
                     }
                 }
             }
