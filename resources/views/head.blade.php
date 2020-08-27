@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ $title }}</title>
 
-    <link href="{{asset('style.css')}}" rel="stylesheet">
+    <link href="{{asset('style.css', true)}}" rel="stylesheet">
 
     <!-- Google Font -->    
     <link href="<?php echo $page_font; ?> rel="stylesheet">
