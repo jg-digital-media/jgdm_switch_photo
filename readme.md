@@ -1,17 +1,17 @@
 # Project Readme - JGDM Laravel Switch App
 
-**Last Update**: 16/02/2022 - 14:42
+**Last Update**: 21/04/2023 - 11:20
 
 ## Links
 
 + ### Project URL:
-  https://switch-photo-library.herokuapp.com/
+  [Link](https://switch-photo-library.herokuapp.com/)
 
 + ### Heroku Repository
-  https://git.heroku.com/switch-photo-library.git  - `switch-photo-library`
+  [Link](https://git.heroku.com/switch-photo-library.git)  - `switch-photo-library`
 
 + ### GitHub Repository
-  https://github.com/jg-digital-media/jgdm_switch_photo - `jgdm_switch_photo`
+  [Link](https://github.com/jg-digital-media/jgdm_switch_photo) - `jgdm_switch_photo`
 
 ## Project Setup
 
